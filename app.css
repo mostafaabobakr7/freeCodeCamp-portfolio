@@ -1,0 +1,331 @@
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #1c60f2, 0 0 20px #1c60f2;
+  }
+  to {
+    text-shadow: 0 0 5px #1c60f2, 0 0 10px #1c60f2;
+  }
+}
+
+@-moz-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #1c60f2, 0 0 20px #1c60f2;
+  }
+  to {
+    text-shadow: 0 0 5px #1c60f2, 0 0 10px #1c60f2;
+  }
+}
+
+@-o-keyframes neon {
+  from {
+    text-shadow: 0 0 10px #1c60f2, 0 0 20px #1c60f2;
+  }
+  to {
+    text-shadow: 0 0 5px #1c60f2, 0 0 10px #1c60f2;
+  }
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #1c60f2, 0 0 20px #1c60f2;
+  }
+  to {
+    text-shadow: 0 0 5px #1c60f2, 0 0 10px #1c60f2;
+  }
+}
+
+@-webkit-keyframes neonBox {
+  from {
+    -webkit-box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+            box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+  }
+  to {
+    -webkit-box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+            box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+  }
+}
+
+@-moz-keyframes neonBox {
+  from {
+    box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+  }
+  to {
+    box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+  }
+}
+
+@-o-keyframes neonBox {
+  from {
+    box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+  }
+  to {
+    box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+  }
+}
+
+@keyframes neonBox {
+  from {
+    -webkit-box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+            box-shadow: 0 0 30px 5px #fff, 0 0 40px 10px #fff;
+  }
+  to {
+    -webkit-box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+            box-shadow: 0 0 15px 2.5px #fff, 0 0 20px 5px #fff;
+  }
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 20px #ffb900;
+  }
+  to {
+    text-shadow: 0 0 10px #ffb900;
+  }
+}
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 20px #ffb900;
+  }
+  to {
+    text-shadow: 0 0 10px #ffb900;
+  }
+}
+
+@-o-keyframes neon1 {
+  from {
+    text-shadow: 0 0 20px #ffb900;
+  }
+  to {
+    text-shadow: 0 0 10px #ffb900;
+  }
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 20px #ffb900;
+  }
+  to {
+    text-shadow: 0 0 10px #ffb900;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+::-moz-selection {
+  background: none;
+  color: #ffb900;
+}
+
+::selection {
+  background: none;
+  color: #ffb900;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  cursor: default;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Nunito", "Open Sans", "Lato";
+  background-color: #302f2f;
+  color: #eaeaea;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  text-align: left;
+  color: #eee;
+  text-decoration: underline;
+  font-size: 10rem;
+  -webkit-animation: neon 2.5s ease-in-out infinite alternate;
+     -moz-animation: neon 2.5s ease-in-out infinite alternate;
+       -o-animation: neon 2.5s ease-in-out infinite alternate;
+          animation: neon 2.5s ease-in-out infinite alternate;
+}
+
+@media (max-width: 37.5em) {
+  h2 {
+    font-size: 5rem;
+  }
+}
+
+h3 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #eee;
+  font-size: 5rem;
+  -webkit-animation: neon 2.5s ease-in-out infinite alternate;
+     -moz-animation: neon 2.5s ease-in-out infinite alternate;
+       -o-animation: neon 2.5s ease-in-out infinite alternate;
+          animation: neon 2.5s ease-in-out infinite alternate;
+}
+
+@media (max-width: 37.5em) {
+  h3 {
+    font-size: 4rem;
+  }
+}
+
+.header h1 {
+  font-size: 15rem;
+  color: #1c60f2;
+  -webkit-animation: neon 2.5s ease-in-out infinite alternate;
+     -moz-animation: neon 2.5s ease-in-out infinite alternate;
+       -o-animation: neon 2.5s ease-in-out infinite alternate;
+          animation: neon 2.5s ease-in-out infinite alternate;
+}
+
+@media (max-width: 37.5em) {
+  .header h1 {
+    font-size: 7rem;
+  }
+}
+
+.header p {
+  font-size: 4rem;
+  color: #ffb900;
+  font-family: "Lobster", cursive;
+  -webkit-animation: neon1 5s ease-in-out infinite alternate;
+     -moz-animation: neon1 5s ease-in-out infinite alternate;
+       -o-animation: neon1 5s ease-in-out infinite alternate;
+          animation: neon1 5s ease-in-out infinite alternate;
+}
+
+@media (max-width: 37.5em) {
+  .header p {
+    font-size: 2.5rem;
+  }
+}
+
+.header .img-div img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #212121;
+  -webkit-filter: drop-shadow(1px 1px 30px #212121);
+          filter: drop-shadow(1px 1px 30px #212121);
+}
+
+@media (max-width: 37.5em) {
+  .header .img-div img {
+    width: 200px;
+  }
+}
+
+.header i {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.main .img {
+  margin-bottom: 3rem;
+}
+
+.main .skills {
+  text-align: center;
+}
+
+.main .skills .img {
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 37.5em) {
+  .main .skills .img {
+    width: 15rem;
+  }
+}
+
+.main .skills .img8 {
+  width: 10rem;
+  height: 19rem;
+}
+
+.main .portfolio img {
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.main .portfolio a:active img {
+  -webkit-transform: scale(0.9);
+     -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+       -o-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.main .portfolio a:hover img {
+  -webkit-transform: scale(1.03);
+     -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+       -o-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #302f2f), color-stop(20%, #242424), color-stop(80%, #100f0f));
+  background: -webkit-linear-gradient(top, #302f2f 10%, #242424 20%, #100f0f 80%);
+  background: -moz-linear-gradient(top, #302f2f 10%, #242424 20%, #100f0f 80%);
+  background: -o-linear-gradient(top, #302f2f 10%, #242424 20%, #100f0f 80%);
+  background: linear-gradient(to bottom, #302f2f 10%, #242424 20%, #100f0f 80%);
+}
+
+.footer .contact h4 span {
+  color: #1c60f2;
+  -webkit-animation: neon 3s ease-in-out infinite alternate;
+     -moz-animation: neon 3s ease-in-out infinite alternate;
+       -o-animation: neon 3s ease-in-out infinite alternate;
+          animation: neon 3s ease-in-out infinite alternate;
+}
+/*# sourceMappingURL=app.css.map */
